@@ -1,6 +1,6 @@
 from hypothesis import given
 import hypothesis.strategies
-from src import heap_sort
+from src.sorting_algorithms import heap_sort
 
 
 def test_heap_sort_usual_occasions():

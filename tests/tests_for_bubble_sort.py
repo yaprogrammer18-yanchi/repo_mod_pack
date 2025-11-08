@@ -1,6 +1,6 @@
 from hypothesis import given
 import hypothesis.strategies as st
-from src import bubble_sort
+from src.sorting_algorithms import bubble_sort
 
 def test_bubble_sort_usual_occasions():
     assert bubble_sort([29, 32, 54, 11, 9]) == [9, 11, 29, 32, 54]

@@ -1,6 +1,6 @@
 from hypothesis import given
 from hypothesis import strategies as st
-from src import merge_sort
+from src.sorting_algorithms import merge_sort
 
 def test_merge_sort_usual_occasions():
     assert merge_sort([29, 32, 54, 11, 9]) == [9, 11, 29, 32, 54]
