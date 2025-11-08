@@ -1,5 +1,5 @@
 from hypothesis import given, strategies as st
-from src.quick_sort import quick_sort
+from src import quick_sort
 
 
 def test_empty_array():
